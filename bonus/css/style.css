@@ -3,7 +3,8 @@ body {
 }
 
 main {
-      margin: 10px;
+      width: 70%;
+      margin: auto;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 #logo {
       width: 250px;
       margin: 100px 10px 20px;
+      margin-left: 15%;
 }
 
 h1 {
