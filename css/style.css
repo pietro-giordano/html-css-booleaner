@@ -1,3 +1,8 @@
+body {
+      width: 70%;
+      margin: auto;
+}
+
 header {
       background-color: rgb(64, 121, 205);
       background-image: url('../img/pattern.png');
@@ -10,10 +15,32 @@ header {
 
 h1 {
       font-size: 40px;
+      margin-bottom: 0;
+}
+
+.grey-text {
+      color: rgb(150, 150, 150);
+      margin-bottom: 10px;
+}
+
+.writed-by {
+      font-size: 18px;
+}
+
+.date {
+      font-size: 12px;
+}
+
+#booleaners {
+      color: aqua;
 }
 
 .image-description {
-      font-size: 40%;
+      font-size: 10px;
+}
+
+.yellow-background {
+      background-color: yellow;
 }
 
 table {
@@ -41,6 +68,7 @@ tr:nth-child(even) {
       width: 310px;
       height: 210px;
       background-size: contain;
+      margin-bottom: 10px;
 }
 
 .lorem-image {
@@ -50,10 +78,6 @@ tr:nth-child(even) {
       font-weight: 800;
 }
 
-.grey-text {
-      color: rgb(150, 150, 150);
-}
-
-#booleaners {
-      color: aqua;
+.bold-text {
+      font-weight: 900;
 }
