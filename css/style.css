@@ -1,0 +1,17 @@
+header {
+      background-color: rgb(64, 121, 205);
+      background-image: url('../img/pattern.png');
+}
+
+#logo {
+      width: 250px;
+      margin: 100px 10px 20px;
+}
+
+h1 {
+      font-size: 50px;
+}
+
+.image-description {
+      font-size: 20%;
+}
