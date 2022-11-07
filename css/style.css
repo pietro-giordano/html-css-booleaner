@@ -9,9 +9,51 @@ header {
 }
 
 h1 {
-      font-size: 50px;
+      font-size: 40px;
 }
 
 .image-description {
-      font-size: 20%;
+      font-size: 40%;
+}
+
+table {
+     border: 0;
+}
+
+th {
+      background-color: rgb(0, 128, 255);
+      color: white;
+}
+
+tr:nth-child(even) {
+      background-color: lightblue;
+}
+
+.monitor-image {
+      background-image: url('../img/monitor.jpg');
+}
+
+.graph-image {
+      background-image: url('../img/graph.jpg');
+}
+
+.monitor-image, .graph-image {
+      width: 310px;
+      height: 210px;
+      background-size: contain;
+}
+
+.lorem-image {
+      color: white;
+      padding-top: 10px;
+      padding-left: 10px;
+      font-weight: 800;
+}
+
+.grey-text {
+      color: rgb(150, 150, 150);
+}
+
+#booleaners {
+      color: aqua;
 }
